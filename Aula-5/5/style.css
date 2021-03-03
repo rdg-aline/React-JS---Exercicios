@@ -1,0 +1,11 @@
+.apagar {
+  background: red;
+  border: 1px solid red;
+  color: #fff
+}
+
+.adicionar {
+  background: green;
+  border: 1px solid green;
+  color: #fff
+}

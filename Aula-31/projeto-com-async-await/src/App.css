@@ -1,0 +1,201 @@
+/**************************************** CADASTRO ****************************/
+h2{
+  display: block;
+  font-size: 1.0em;
+  font-weight: bold;
+  color:black;
+}
+.Form {
+  text-align: center;
+  background-image:url("./images/cadastro.png");
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-attachment: initial, fixed;
+ background-blend-mode: overlay;
+}
+
+.formulario {
+min-height: 105vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+}
+
+/**************************************** HEADER ****************************/
+
+
+.vtex-rich-text-0-x-paragraph--notificationBar {
+  color: #2b2e33;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  padding: 8px;
+  font-family: Open Sans Condensed,sans-serif;
+  background-color: #f0f0f0;
+  width: 100%;
+  text-align: center;
+}
+
+.vtex-rich-text-0-x-link--notificationBar {
+  text-decoration: none;
+  background-color: #ffa935;
+  color: #2b2e33!important;
+  padding: 0 2px;
+}
+
+
+.lh-copy {
+  line-height: 1.5;
+}
+
+
+.header{
+  display: flex;
+  margin-top: 8px;
+  border-bottom-color: orange;
+  border-bottom-width: thick;
+  border-bottom-style: solid;
+  justify-content: space-between;
+
+}
+
+
+
+/**********************************Home ****************************/
+
+.beers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.beer {
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+}
+
+.beer img {
+  max-height: 200px;
+}
+
+.beer h3 {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.beer span {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+.beer small {
+  color: #888
+}
+
+.food-shop {
+  margin: 50px 0
+}
+
+.food-shop h1 {
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+}
+
+.food-shop input[type="text"] {
+  border: 1px solid #111;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.food-shop h2 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
+.food-shop h1::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: #ddd;
+  bottom: -12px;
+  left: 46%;
+}
+
+.button {
+
+  border:1px solid orange;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:13px;
+  padding:6px 10px;
+  text-decoration:none;
+  color:orange;
+}
+
+.button:hover {
+  background-color: #000;
+}
+
+
+.food-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-container img {
+  width: 250px
+}
+
+.food-item {
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+
+.food-item p {
+  max-width: 250px;
+}
+
+.food-shop p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.food-beer-list ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.food-beer-list li {
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  color: #131111;
+  font-weight: 500;
+}
+
+.beer-list li:hover {
+  color: #000
+}
+
+
+/**********************************Carrinho ****************************/
